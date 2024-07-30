@@ -1,27 +1,11 @@
-/* Reset some basic styling */
-body, h1, h2, p, form, input, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* General body styling with background image */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-image: url('background.jpg'); /* Path to your background image */
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Fixed position for parallax effect */
-    color: #333;
-}
-
 /* Header styling */
 header {
     background: rgba(0, 123, 255, 0.9); /* Semi-transparent blue background */
     color: #fff;
     padding: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: flex;
+    align-items: center;
 }
 
 header .container {
@@ -33,10 +17,9 @@ header .container {
     align-items: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold;
+header .logo {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 1rem; /* Space between logo and navigation */
 }
 
 nav ul {
@@ -185,4 +168,3 @@ footer .container {
         padding: 1rem;
     }
 }
-
